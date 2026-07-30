@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RBN Collective</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,Arial,sans-serif;background:#0b0b0b;color:#fff}
+header{position:sticky;top:0;background:rgba(0,0,0,.8);backdrop-filter:blur(10px);padding:18px 8%}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:800;letter-spacing:3px}
+nav a{color:#ddd;text-decoration:none;margin-left:24px}
+.hero{min-height:90vh;display:flex;align-items:center;padding:0 8%;
+background:linear-gradient(135deg,#0b0b0b,#1b1b1b)}
+.hero h1{font-size:64px;line-height:1}
+.hero p{margin:20px 0;color:#bdbdbd;font-size:20px;max-width:650px}
+.btn{display:inline-block;padding:14px 28px;border-radius:10px;text-decoration:none;font-weight:700;margin-right:15px}
+.primary{background:#fff;color:#000}
+.secondary{border:1px solid #666;color:#fff}
+section{padding:80px 8%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#171717;border:1px solid #2d2d2d;border-radius:18px;padding:28px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:#777}
+.card h3{margin-bottom:12px}
+footer{text-align:center;padding:40px;color:#888;border-top:1px solid #222}
+.badge{display:inline-block;background:#222;padding:6px 12px;border-radius:999px;color:#ccc;margin-bottom:18px}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">RBN COLLECTIVE</div>
+<div>
+<a href="#catalogo">Catálogo</a>
+<a href="#mayoreo">Mayoreo</a>
+<a href="#contacto">Contacto</a>
+</div>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<div class="badge">Imports • Wholesale • Lifestyle</div>
+<h1>RBN Collective</h1>
+<p>Una marca enfocada en productos de tendencia, importaciones y mayoreo. Desde tecnología y hogar hasta moda y artículos virales.</p>
+<a class="btn primary" href="#catalogo">Explorar catálogo</a>
+<a class="btn secondary" href="#mayoreo">Solicitar mayoreo</a>
+</div>
+</section>
+
+<section id="catalogo">
+<h2 style="font-size:38px;margin-bottom:30px;">Categorías</h2>
+<div class="grid">
+<div class="card"><h3>📱 Tecnología</h3><p>Accesorios, gadgets y electrónicos.</p></div>
+<div class="card"><h3>🏠 Hogar</h3><p>Artículos para casa y cocina.</p></div>
+<div class="card"><h3>👕 Moda</h3><p>Ropa y accesorios.</p></div>
+<div class="card"><h3>🔥 Tendencias</h3><p>Productos virales e importados.</p></div>
+</div>
+</section>
+
+<section id="mayoreo">
+<h2 style="font-size:38px;margin-bottom:20px;">Mayoreo</h2>
+<p style="color:#cfcfcf;max-width:700px">
+¿Buscas surtir tu negocio? Cotizamos pedidos por volumen para revendedores,
+tiendas y distribuidores. Atención personalizada y precios especiales.
+</p>
+<br>
+<a class="btn primary" href="https://wa.me/">Cotizar por WhatsApp</a>
+</section>
+
+<section id="contacto">
+<h2 style="font-size:38px;margin-bottom:20px;">RBN Collective</h2>
+<p>Email: contacto@rbncollective.com</p>
+<p>Instagram: @rbncollective</p>
+<p>Facebook: RBN Collective</p>
+</section>
+
+<footer>
+© 2026 RBN Collective. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
